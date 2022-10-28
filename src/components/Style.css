@@ -1,0 +1,22 @@
+#contenedorlista{width: 600px;}
+li {
+    display:inline;
+    padding-left:6px;
+    padding-right:6px;
+    font-size: large;
+    padding-left: 25px;
+}
+
+
+
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;
+    display:flex;
+}
+
+#main-header{background-color: aqua;}
+#contenedordeproductos{background-color: cornflowerblue;}

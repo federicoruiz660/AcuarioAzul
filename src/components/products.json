@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "category": "aguamarina",
+    "title": "Pez Payaso",
+    "description": "Amphiprioninae origen: oceano indico, pacifico, mar rojo",
+    "price": 3000,
+    "urlPicture": "https://t2.uc.ltmcdn.com/es/posts/6/0/9/como_cuidar_a_un_pez_payaso_32906_600.webp"
+  },
+  {
+    "id": 2,
+    "category": "aguamarina",
+    "title": "Pez Cirujano Azul",
+    "description": "Paracanthurus hepatus origen: Arrecifes de Japon, Gran barrera de coral, Indo-Pacífico",
+    "price": 2000,
+    "urlPicture": "https://www.hogarmania.com/archivos/201907/pez-cirujano-adulto-XxXx80.jpg"
+  },
+  {
+    "id": 3,
+    "category": "aguamarina",
+    "title": "Pez Unicornio",
+    "description": "Naso unicornis origen: islas de la bahia de bahamas, caribe",
+    "price": 2660,
+    "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Naso_unicornis_%28Bluespine_unicornfish%29.jpg"
+  },
+  {
+    "id": 4,
+    "category": "aguatropical",
+    "title": "Pez Angel",
+    "description": "Pterophyllum scalare, origen: Amazonas, Peru, Brasil",
+    "price": 1000,
+    "urlPicture": "https://pecesdecolor.es/wp-content/uploads/2019/10/Escalar-cuadrada-1.jpg"
+  },
+  {
+    "id": 5,
+    "category": "aguatropical",
+    "title": "Pez Betta",
+    "description": "Betta splendens, origen: Tailandia, Vietnam, Camboya, Laos, Myanmar",
+    "price": 950,
+    "urlPicture": "https://atlasanimal.com/wp-content/uploads/2021/02/pez-betta.jpg.webp"
+  }
+]

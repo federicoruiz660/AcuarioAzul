@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import ItemListContainer from "./components/ItemListContainer";
+import {BrowserRouter} from "react-router-dom";
+import Main from "./components/Main";
 
 
 
@@ -8,15 +10,11 @@ import ItemListContainer from "./components/ItemListContainer";
 function App() {
   return (
   
-  <div>
+  <BrowserRouter>
     
     <NavBar></NavBar>
-    <ItemListContainer  greeting="Hola, aca van a ir los productos a medida que se vayan agregando, muchas gracias por visitarnos."></ItemListContainer>
-
-
-  </div>
-  
-  
+    <Main />
+  </BrowserRouter>
   
   );}
 

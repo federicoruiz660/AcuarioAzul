@@ -1,11 +1,43 @@
 import React from 'react'
-import './Style.css';
+import { useEffect, useState } from "react"
+import { useParams } from "react-router-dom"
+import ItemList from './ItemList'
+import { getProductByCategory, getProducts } from "./Selector"
 
-const ItemListContainer = (props) => {
+
+function ItemListContainer({ greeting }) {
+
+  const [items, setItems] = useState([]) 
+
+  const {categoryId} = useParams() 
+
+  useEffect(() => {
+
+      if(categoryId){
+          getProductByCategory(categoryId) 
+          .then(res => {
+              setItems(res)
+          })
+          .catch(err => {
+              console.log(err)
+          })
+
+      }else{
+          getProducts()
+          .then((respuesta) => {
+              setItems(respuesta)
+          })
+          .catch((err) => {
+            console.log(err)
+          })
+      }
+  }, [categoryId])
+
   return (
-    
-    
-    <div id='contenedordeproductos'>{props.greeting}</div>
+    <section className='main'>
+      
+      {items.length == 0 ? <h1>Cargando, espere...</h1> : <ItemList items={items} />}      
+    </section>
   )
 }
 
